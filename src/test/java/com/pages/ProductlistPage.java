@@ -3,6 +3,7 @@ package com.pages;
 import com.cucumberrunner.AbstractMain;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -24,10 +25,25 @@ public class ProductlistPage extends AbstractMain {
     //*[@id="add_to_cart"]/button/span
 
     public void clickon_ProceedCart_Button(){
-       // driver.findElement(By.xpath("//*[@id=\"add_to_cart\"]/button")).click();
-        //driver.findElement(By.id("//*[@id=“block_top_menu”]/ul/li[3]/a")).click();
-        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-        driver.findElement(By.xpath("//span[contains(.,'Add to cart')]")).click();
+
+        Integer size = driver.findElements(By.tagName("iframe")).size();
+        driver.switchTo().frame(0);
+        driver.findElement(By.cssSelector(".exclusive > span")).click();
+
+    }
+
+    public void clickon_Proceedto_checkout() throws Exception{
+
+         Thread.sleep(10000);
+       // Integer size = driver.findElements(By.tagName("iframe")).size();
+        //driver.switchTo().frame(0);
+        //String x = driver.getWindowHandle();
+       // driver.switchTo().activeElement().findElement(By.cssSelector(".btn btn-default button button-medium > span")).click();
+        //driver.findElement(By.id("layer_cart")).findElement(By.cssSelector(".btn btn-default button button-medium > span")).click();
+        driver.switchTo().frame(0);
+       driver.findElement(By.cssSelector(".btn btn-default button button-medium > span")).click();
+      // driver.findElement(By.linkText("Proceed to checkout")).click();
+        //driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/a/span")).click();
 
     }
 

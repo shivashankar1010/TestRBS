@@ -20,4 +20,11 @@ public class ProductPageStepDefs  extends AbstractMain{
         productlistPage.clickon_ProceedCart_Button();
     }
 
+
+    @Then("^click on the proceed to checkout$")
+    public void click_on_the_proceed_to_checkout() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+         productlistPage.clickon_Proceedto_checkout();
+
+    }
 }

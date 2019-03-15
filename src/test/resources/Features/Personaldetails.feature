@@ -6,6 +6,7 @@ Feature: Tests for automationatpractice website
     When user click on the Tshirt link
     Then click on the add to cart
     Then click on the proceed to cart
+    Then click on the proceed to checkout
 #    When User select signin link
 #    And User enter a "<emailid>" and "<password>"
 #    Then User click on sign in button
