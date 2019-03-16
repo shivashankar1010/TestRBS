@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "./src/test/resources/Features", glue = { "com.stepdefinations" }, tags = {
-        "@test" }, plugin = { "html:target/cucumber-html-report", "json:target/cucumber.json" })
+        "@test1" }, plugin = { "html:target/cucumber-html-report", "json:target/cucumber.json" })
 
 
 public class Runner {
