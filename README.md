@@ -7,7 +7,7 @@ https://github.com/shivashankar1010/TestRBS
   
 ## Project structure  
 I have used the page object design pattern and defined the all the webelements and methods in the page.  
-That is in the package folder  
+That is in the package called pages folder  
 All the  test calls I have kept in the the step defination folder.
 
 ## Scenarios covered 
