@@ -17,7 +17,7 @@ Scenario 2: Update Personal Information (First Name) in My Account
 
 ## Dependenics and Test Tools  
 As I have created the framework using  the Maven. I have kept all the dependencies in the pom.xml  
-The following suggested tools and libraries I have used:  
+The following suggested tools and libraries I have used   
 • CucumberJVM  
 • WebDriver  
 • Maven  
