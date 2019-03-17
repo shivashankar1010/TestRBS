@@ -14,7 +14,6 @@ public class HomePageStepDefs extends AbstractMain {
     @When("^user click on the Tshirt link$")
     public void user_click_on_the_Tshirt_link() throws Throwable {
         homepage.select_Tshirt_from_TopNav();
-
     }
 
 }

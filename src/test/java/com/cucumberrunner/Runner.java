@@ -11,7 +11,6 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "./src/test/resources/Features", glue = { "com.stepdefinations" }, tags = {
         "@test" }, plugin = { "html:target/cucumber-html-report", "json:target/cucumber.json" })
 
-
 public class Runner {
 
 }

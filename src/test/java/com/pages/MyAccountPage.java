@@ -14,12 +14,10 @@ public class MyAccountPage extends  AbstractMain {
     }
     public void user_enterspassword() throws Exception
     {
-       // driver.findElement(By.xpath(("//input[@id='firstname']"))).clear();
         driver.findElement(By.xpath(("//input[@id='old_passwd']"))).sendKeys("Sashaooo");
     }
     public void user_clicks_savebutton() throws Exception
     {
-        // driver.findElement(By.xpath(("//input[@id='firstname']"))).clear();
         driver.findElement(By.xpath(("//span[contains(text(),'Save')]"))).click();
     }
 

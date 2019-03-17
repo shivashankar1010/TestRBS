@@ -17,7 +17,6 @@ public class HomePage extends AbstractMain {
 
         public void select_Tshirt_from_TopNav() throws InterruptedException {
         Thread.sleep(3000);
-        //driver.findElements(By.cssSelector(".sf-with-ul")).get(3).click();
             driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[3]/a")).click();
         }
 }

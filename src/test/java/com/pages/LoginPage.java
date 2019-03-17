@@ -7,7 +7,6 @@ public class LoginPage extends AbstractMain {
 
 
     public void login_Link(){
-
         driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")).click();
         System.out.println("User has logged in ");
     }
