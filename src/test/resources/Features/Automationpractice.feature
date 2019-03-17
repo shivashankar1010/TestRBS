@@ -15,7 +15,7 @@ Feature: Tests for automationatpractice website
     Then user clicks on the pay by bank
     Then User clicks on the confirm order
     Then user clicks the back to order page
-
+  @test
    Scenario: As a user updated the personal account information
     Given User navigate into autopractise website
     When User select signin link

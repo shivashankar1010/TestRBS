@@ -3,19 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1b32ebea-b634-4f90-9aac-97760a935d2c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumberrunner/AbstractMain.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumberrunner/AbstractMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumberrunner/Runner.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumberrunner/Runner.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/MyAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/MyAccountPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ProductlistPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ProductlistPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ShippingPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ShippingPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/HomePageStepDefs.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/HomePageStepDefs.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/LoginPageStepDef.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/LoginPageStepDef.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/MyAccountStepDefs.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/MyAccountStepDefs.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/ProductPageStepDefs.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/ProductPageStepDefs.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/ShippingPageStepDefs.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/ShippingPageStepDefs.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Personaldetails.feature" afterPath="$PROJECT_DIR$/src/test/resources/Features/Personaldetails.feature" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Personaldetails.feature" afterPath="$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Personaldetails.feature" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,11 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Personaldetails.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/Features/Personaldetails.feature">
+      <file leaf-file-name="Automationpractice.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="270">
+              <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -90,18 +90,6 @@
             <state relative-caret-position="228">
               <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyAccountPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/pages/MyAccountPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cucumberrunner/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumberrunner/AbstractMain.java" />
         <option value="$PROJECT_DIR$/src/test/resources/Features/Personaldetails.feature" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature" />
       </list>
     </option>
   </component>
@@ -472,7 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: Personaldetails">
+  <component name="RunManager" selected="Cucumber java.Feature: Automationpractice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -513,6 +503,29 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="Feature: Automationpractice" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature" />
+      <option name="GLUE" value="com.stepdefinations" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="Feature: Automationpractice" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestRBS" />
+      <envs />
+    </configuration>
     <configuration name="Feature: Personaldetails" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -527,6 +540,29 @@
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestRBS" />
+      <envs />
+    </configuration>
+    <configuration name="Scenario: As a user updated the personal account information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature" />
+      <option name="GLUE" value="com.stepdefinations" />
+      <option name="myNameFilter" value="^As a user updated the personal account information$" />
+      <option name="myGeneratedName" value="Scenario: As a user updated the personal account information" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^As a user updated the personal account information$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -558,31 +594,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="TestRBS" />
       <envs />
-    </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cucumberrunner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TestRBS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cucumberrunner" />
-      <option name="MAIN_CLASS_NAME" value="com.cucumberrunner.Runner" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -644,18 +655,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Runner" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: User is signed into the autopracitce" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Personaldetails" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Testclassforverifcation" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: User is signed into the autopracitce" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: Personaldetails" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Testclassforverifcation" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: As a user updated the personal account information" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: Automationpractice" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: Personaldetails" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Testclassforverifcation" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: User is signed into the autopracitce" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Runner" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: Automationpractice" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: As a user updated the personal account information" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Personaldetails" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Testclassforverifcation" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: User is signed into the autopracitce" />
       </list>
     </recent_temporary>
   </component>
@@ -697,12 +710,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Personaldetails - 2019.03.16 at 20h 43m 35s.xml">
-      <configuration name="Feature: Personaldetails" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Personaldetails - 2019.03.16 at 20h 45m 06s.xml">
-      <configuration name="Feature: Personaldetails" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__Personaldetails - 2019.03.16 at 20h 48m 46s.xml">
       <configuration name="Feature: Personaldetails" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -727,6 +734,12 @@
     <history-entry file="Feature__Personaldetails - 2019.03.17 at 10h 58m 22s.xml">
       <configuration name="Feature: Personaldetails" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__Personaldetails - 2019.03.17 at 11h 19m 28s.xml">
+      <configuration name="Feature: Personaldetails" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__As_a_user_updated_the_personal_account_information - 2019.03.17 at 11h 35m 57s.xml">
+      <configuration name="Scenario: As a user updated the personal account information" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -740,8 +753,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41737893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32621083" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30341882" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2834758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28397712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -835,7 +848,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Features/Personaldetails.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
@@ -860,14 +873,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumberrunner/Testclassforverifcation.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stepdefinations/ShippingPageStepDefs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -966,6 +971,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumberrunner/AbstractMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumberrunner/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -976,18 +997,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumberrunner/AbstractMain.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Features/Personaldetails.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="270">
+          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
           <folding />
         </state>
       </provider>
