@@ -3,34 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b32ebea-b634-4f90-9aac-97760a935d2c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TestRBS.iml" afterPath="$PROJECT_DIR$/TestRBS.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumberrunner/AbstractMain.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumberrunner/AbstractMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumberrunner/Runner.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumberrunner/Runner.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/MyAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/MyAccountPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ProductlistPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ProductlistPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ShippingPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ShippingPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/HomePageStepDefs.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/HomePageStepDefs.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/LoginPageStepDef.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/LoginPageStepDef.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/MyAccountStepDefs.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/MyAccountStepDefs.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/ProductPageStepDefs.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/ProductPageStepDefs.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepdefinations/ShippingPageStepDefs.java" afterPath="$PROJECT_DIR$/src/test/java/com/stepdefinations/ShippingPageStepDefs.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature" afterPath="$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Automationpractice.feature" afterPath="$PROJECT_DIR$/target/test-classes/Features/Automationpractice.feature" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cucumberrunner/AbstractMain.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumberrunner/AbstractMain.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cucumberrunner/Runner.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumberrunner/Runner.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/HomePage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/HomePage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/LoginPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/MyAccountPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/MyAccountPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/ProductlistPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/ProductlistPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/ShippingPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/ShippingPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/HomePageStepDefs.class" afterPath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/HomePageStepDefs.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/LoginPageStepDef.class" afterPath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/LoginPageStepDef.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/MyAccountStepDefs.class" afterPath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/MyAccountStepDefs.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/ProductPageStepDefs.class" afterPath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/ProductPageStepDefs.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/ShippingPageStepDefs.class" afterPath="$PROJECT_DIR$/target/test-classes/com/stepdefinations/ShippingPageStepDefs.class" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -181,7 +154,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/cucumberrunner/Testclassforverifcation.java" />
         <option value="$PROJECT_DIR$/src/test/resources/Features/Personaldetails.feature" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/resources/Features/Backgroundtest.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/pages/MyAccountPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pages/ShippingPage.java" />
@@ -204,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/Features/Automationpractice.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stepdefinations/HomePageStepDefs.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -787,6 +760,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -798,7 +772,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4002849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.67236465" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24643874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27539343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1266,8 +1240,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             <folding />
           </first_editor>
           <second_editor />

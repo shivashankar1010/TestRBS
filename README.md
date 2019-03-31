@@ -1,4 +1,4 @@
-# HMRC Automatoion Practice
+# HMRC Automation Practice test
 This is Autoamtion frame work for the Order Tishire and update personal information
 Developed a Web test solution that automates a few simple tests, composed as BDD scenarios.
   
@@ -12,8 +12,11 @@ All the  test calls I have kept in the the step defination folder.
 
 ## Scenarios covered 
 Below are the scenarios covered.
-Scenario 1: Order T-Shirt (and Verify in Order History)
-Scenario 2: Update Personal Information (First Name) in My Account
+Below is a set of automated UI tests
+1. Create a new account
+2. Login
+3. Find the most expensive dress and add it to the cart
+4. Log out and back in again, ensuring the dress is still in the cart
 
 ## Dependenics and Test Tools  
 As I have created the framework using  the Maven. I have kept all the dependencies in the pom.xml  
