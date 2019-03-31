@@ -1,4 +1,4 @@
-# TestRBS
+# HMRC Automatoion Practice
 This is Autoamtion frame work for the Order Tishire and update personal information
 Developed a Web test solution that automates a few simple tests, composed as BDD scenarios.
   
