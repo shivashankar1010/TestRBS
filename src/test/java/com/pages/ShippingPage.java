@@ -2,7 +2,9 @@ package com.pages;
 
 import com.cucumberrunner.AbstractMain;
 
+import com.cucumberrunner.Configuration;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -10,6 +12,8 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class ShippingPage extends AbstractMain {
+    public WebDriver driver= Configuration.browser();
+
 
     String ordernumber = null;
 

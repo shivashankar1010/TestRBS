@@ -1,11 +1,15 @@
 package com.stepdefinations;
 
 import com.cucumberrunner.AbstractMain;
+import com.cucumberrunner.Configuration;
 import com.pages.ProductlistPage;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebDriver;
 
 public class ProductPageStepDefs  extends AbstractMain{
+    public WebDriver driver= Configuration.browser();
+
 
     @Then("^click on the add to cart$")
     public void click_on_the_add_to_cart() throws Throwable {

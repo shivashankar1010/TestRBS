@@ -1,10 +1,14 @@
 package com.stepdefinations;
 
 import com.cucumberrunner.AbstractMain;
+import com.cucumberrunner.Configuration;
 import com.pages.MyAccountPage;
 import cucumber.api.java.en.Then;
+import org.openqa.selenium.WebDriver;
 
 public class MyAccountStepDefs extends AbstractMain {
+    public WebDriver driver= Configuration.browser();
+
 
     @Then("^click on the my personal information$")
     public void click_on_the_my_personal_information() throws Throwable {

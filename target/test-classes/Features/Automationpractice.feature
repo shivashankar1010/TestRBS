@@ -1,28 +1,23 @@
 Feature: Tests for automationatpractice website
-@test
-  Scenario: Order T-Shirt and Verify in Order History
-    Given User navigate into autopractise website
-    When user click on the Tshirt link
-    Then click on the proceed to cart
-    Then click on the proceed to checkout
-    Then click on the procced to checkout in summary page
-    And User enter a cfredentials
-         | Sashaooo@gmail.com | Sashaooo |
-    Then User click on sign in button
-    When click on the procced to checkout in address summary page
-    When user clicks on the terms and conditions in shipping page
-    When click on the procced to checkout in shipping page
-    Then user clicks on the pay by bank
-    Then User clicks on the confirm order
-    Then user clicks the back to order page
   @test
-   Scenario: As a user updated the personal account information
+  Scenario: Login Test
     Given User navigate into autopractise website
-    When User select signin link
-    And User enter a cfredentials
-        | Sashaooo@gmail.com | Sashaooo |
-    Then User click on sign in button
-    Then click on the my personal information
-    Then update the first name
-    Then enter the password
-    Then click on the Save button
+   When User select signin link
+   Then  user enters valid credentials
+  Then  validate user is successfully logged in
+
+
+
+  @test
+  Scenario: Find the most expensive dress and add it to the cart
+   When user click on the dress link
+    Then click on the proceed to cart
+   Then click on the proceed to checkout
+
+
+@test
+Scenario: Log out and back in again, ensuring the dress is still in the cart
+  When user click logout link
+  When User select signin link
+  Then  user enters valid credentials
+  Then  validate user is successfully logged in

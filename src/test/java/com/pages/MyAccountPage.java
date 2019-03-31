@@ -1,8 +1,12 @@
 package com.pages;
 import com.cucumberrunner.AbstractMain;
+import com.cucumberrunner.Configuration;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 public class MyAccountPage extends  AbstractMain {
+    public WebDriver driver= Configuration.browser();
+
     public void userclicks_mypersonalinformation() throws Exception
     {
         driver.findElement(By.xpath(("//span[contains(text(),'My personal information')]"))).click();

@@ -1,23 +1,46 @@
 package com.pages;
 
 import com.cucumberrunner.AbstractMain;
+import com.cucumberrunner.Configuration;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends AbstractMain {
 
 
+    public WebDriver driver= Configuration.browser();
+
+    @FindBy(className = "login")
+    private WebElement loginLink;
+
+    @FindBy(id = "email")
+    private WebElement emailtextbox;
+
+    @FindBy(id = "passwd")
+    private WebElement passwordtextbox;
+
+    @FindBy(id = "SubmitLogin")
+    private WebElement submitloginbutton;
+
+public LoginPage(){
+    PageFactory.initElements(driver,this);
+}
     public void login_Link(){
-        driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")).click();
-        System.out.println("User has logged in ");
+        loginLink.click();
+
     }
 
-    public void user_Sigin_Details(String emailid, String password){
-        driver.findElement(By.id("email")).sendKeys(emailid);
-        driver.findElement(By.id("passwd")).sendKeys(password);
+
+    public void user_Sigin_Details(){
+        emailtextbox.sendKeys(Configuration.readpropertiesFile("username"));
+        passwordtextbox.sendKeys(Configuration.readpropertiesFile("password"));
+
     }
 
     public void select_Signin_Button(){
-        driver.findElement(By.id("SubmitLogin")).click();
-
+      submitloginbutton.click();
     }
 }

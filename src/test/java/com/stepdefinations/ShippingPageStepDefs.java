@@ -1,11 +1,18 @@
 package com.stepdefinations;
 import com.cucumberrunner.AbstractMain;
+import com.cucumberrunner.Configuration;
 import com.pages.ProductlistPage;
 import com.pages.ShippingPage;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebDriver;
+
 public class ShippingPageStepDefs extends AbstractMain
+
 {
+
+    public WebDriver driver= Configuration.browser();
+
     @When("^click on the procced to checkout in shipping page$")
     public void click_on_the_procced_to_checkout_in_shipping_page() throws Throwable {
         shippingPage.clickon_Proceedto_checkout_shipping_addresspage();
